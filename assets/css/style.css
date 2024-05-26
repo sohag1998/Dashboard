@@ -1,0 +1,333 @@
+.content-wrapper{
+    margin-left: 240px;
+    margin-top: 60px;
+    transition: 0.5s;
+}
+
+.content-wrapper.hide {
+    margin-left: 0;
+}
+
+.top-chart-earn {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: -2px 3px 13px 0px rgb(207 200 200 / 55%);
+}
+
+.last-month {
+    line-height: 20px;
+    text-align: center;
+}
+
+.last-month h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.last-month p {
+    font-size: 12px;
+    color: #afaba8;
+}
+
+.eran {
+    margin: 12px 0;
+}
+
+.eran h2 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.chart-header-tab{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.chart-nav{
+    padding: 0px 15px;
+    color: var(--second-color);
+    border-bottom: 2px solid transparent;
+    transition: 0.1s;
+}
+.chart-nav:hover{
+    background-color: transparent !important;
+    color: var(--main-color) !important;
+    border-bottom: 2px solid var(--main-color);
+    border-radius: 0;
+}
+.chart-nav.active {
+    background-color: transparent !important;
+    color: var(--main-color) !important;
+    border-bottom: 2px solid var(--main-color);
+    border-radius: 0px;
+}
+.sales_bar_chart{
+    width: 100%;
+    padding-right: 5px;
+}
+#chartWeek, #chartMonth, #chartYear{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/*=========== Wallet Design =========*/
+.wre-sec{
+    overflow: hidden;
+    border-top: 1px solid rgba(170, 164, 164, 0.25);
+}
+.bdr-cls{
+    border-right: 1px solid rgba(170, 164, 164, 0.25);
+}
+
+.eran-view {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.earn-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #ddd;
+    line-height: 20px;
+    font-size: 16px;
+    color: var(--white-color);
+}
+
+.wallet-icon{
+    background: var(--main-color);
+}
+.referal-icon{
+    background: #b75eb7;
+}
+.estimated-icon{
+    background: #16a6b1;
+}
+.earning-icon{
+    background: #df9903;
+}
+
+
+/*=========== Traffic Chart Design =========*/
+.traffic-title {
+    padding-left: 10px;
+}
+.traffic-title p{
+    font-weight: 600;
+}
+.traffic{
+    display: flex;
+    justify-content: center;
+}
+canvas#traffic {
+    width: 332px !important;
+    height: 332px !important;
+}
+
+
+/*=========== Small Chart Design =========*/
+
+.revinue.revinue-one-hybrid{
+    background: linear-gradient(121deg, rgba(194, 13, 90, 1)25%, rgb(162, 101, 182)100%);
+    border-radius: 5px;
+}
+.revinue-heading .w-title{
+    display: flex;
+    align-items: center;
+    padding: 10px 7px;
+}
+.revinue-heading .w-title .w-icon{
+   font-size: 28px;
+   color: var(--white-color);
+   padding-right: var(--mb-2);
+
+}
+.sm-chart-text {
+    color: var(--white-color);
+}
+
+p.w-value {
+    font-size: 15px;
+}
+
+#hybrid_followers, #hybrid_page, #hybrid_bonous, #hybrid_custom{
+    min-width: 100% !important;
+    max-height: 60px !important;
+}
+
+.page-one-hybrid{
+    overflow: hidden;
+    background: linear-gradient(121deg, rgb(92 26 195)25%, rgb(136 25 206/95%)100%);
+    border-radius: 5px;
+}
+.bonous-one-hybrid{
+    overflow: hidden;
+    background: linear-gradient(121deg, rgb(3, 76, 105) 25%, rgba(3, 59, 163, 0.95) 100%);
+    border-radius: 5px;
+}
+
+.custom-one-hybrid{
+    overflow: hidden;
+    background: linear-gradient(121deg, rgb(0 121 110) 25%, rgb(145 2 120 / 95%) 100%);
+    border-radius: 5px;
+}
+.sm-chart-text h5 span{
+    font-size: 10px;
+}
+
+
+/* ============ Admin show and order status =================== */
+.admin-list {
+    padding: 10px;
+    border-radius: 5px;
+    background: var(--white-color);
+    box-shadow: -2px 3px 13px 0px rgb(207 200 200 / 55%);
+}
+
+img.admin-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+p.admin-ac-title {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 5px;
+    display: inline-block;
+    border-bottom: 2px solid var(--main-color);
+    line-height: 1.5;
+    margin-bottom: 13px;
+}
+
+li.admin-li {
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    padding: 10px;
+}
+
+.admin-ac-details {
+    padding-left: 10px;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+a.admin-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--second-color);
+    transition: 0.1s;
+}
+a.admin-name:hover{
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+p.activity-text {
+    font-size: 11px;
+    color: #767575;
+}
+
+.status {
+    text-align: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+table.dataTable{
+    overflow: hidden;
+}
+
+table.dataTable tbody > tr:nth-child(odd) > td{
+    background: rgba(245, 245, 245, 0);
+}
+
+.order-table-sec #order-list-table> thead> tr>th{
+    outline: none !important;
+}
+
+.order-table-sec #order-list-table> thead> tr>th:hover{
+    outline: none !important;
+}
+
+.dt-layout-cell.dt-start label {
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+div.dt-container select.dt-input{
+    padding: 2px;
+    border-color: #ddd;
+}
+
+div.dt-container .dt-search input{
+    padding: 5px 8px;
+    border-color: #ddd;
+}
+
+table.dataTable > thead > tr > th, table.dataTable > tbody > tr > td {
+    border-bottom: 1px solid #ddd;
+}
+table.dataTable > tbody > tr > td {
+    padding: 5px 10px;
+}
+
+
+table.dataTable tbody > tr:last-child{
+    border-bottom: 1px solid #ddd !important;    
+}
+
+table.dataTable tbody > tr:last-child > td{
+    border-bottom: 1px solid #ddd !important;    
+}
+
+table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date, table.dataTable td.dt-type-numeric, table.dataTable td.dt-type-date {
+    text-align: left;
+}
+
+#order-list-table a.status-btn{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--white-color);
+    background: #ddd;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+div.dt-container div.dt-layout-row {
+    padding-top: 5px;
+}
+button.dt-paging-button {
+    padding: 5px 10px !important;
+    line-height: 15px !important;
+    font-size: 12px !important;
+    background: transparent !important;
+    border: 1px solid transparent;
+}
+button.dt-paging-button.disabled{
+    background: #979499 !important;
+
+}
+
+button.dt-paging-button:hover{
+    background: #6a9b74 !important;
+    border: 1px solid transparent !important;
+}
+button.dt-paging-button.current{
+    color: var(--white-color) !important;
+    background: #6a9b74 !important;
+    border: 1px solid transparent !important;
+    
+}
