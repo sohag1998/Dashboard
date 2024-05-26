@@ -44,12 +44,15 @@ a.sidebarcollapse {
   border: 2px solid #c325aa;
   padding: 0px 10px;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .search-bar-conent input {
+  width: 96%;
   border: 0;
   outline: none;
-  padding: 0px 0px !important;
-  line-height: 0;
+  padding: 0px 2% !important;
 }
 
 .search-bar-conent span {
