@@ -9,23 +9,23 @@ const ctx_week = document.getElementById('chartWeek');
       labels: ['Sat', 'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
       datasets: [{
         label: 'Organic',
-        data: [40, 19, 16, 15, 22, 13, 20],
+        data: [40, 19, 34, 56, 40, 13, 20],
         backgroundColor: [
             'rgba(233, 13, 108, 0.8)'
         ],
         borderWidth: 1,
-        barThickness: 6,
-        borderRadius: 3
+        barThickness: 10,
+        borderRadius: 10
       },
       {
         label: 'By Ads',
-        data: [14, 24, 13, 25, 19, 35, 75],
+        data: [14, 24, 60, 45, 54, 35, 75],
         backgroundColor: [
-          'rgba(233, 13, 108, 0.4)'
+          'rgba(171, 0, 165, 0.8)'
       ],
         borderWidth: 1,
-        barThickness: 6,
-        borderRadius: 3
+        barThickness: 10,
+        borderRadius: 10
       }
     ]
     },
@@ -69,7 +69,7 @@ new Chart(ctx_month, {
     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
     datasets: [{
       label: 'Organic',
-      data: [79, 56, 30, 12, 14, 21, 140, 45, 70, 185, 34, 90],
+      data: [79, 56, 30, 102, 114, 121, 140, 80, 70, 185, 34, 90],
       backgroundColor: [
           'rgba(233, 13, 108, 0.8)'
       ],
@@ -81,7 +81,7 @@ new Chart(ctx_month, {
       label: 'By Ads',
       data: [35, 170, 65, 90, 132, 160, 120, 120, 100, 111, 40, 80],
       backgroundColor: [
-        'rgba(233, 13, 108, 0.4)'
+        'rgba(171, 0, 165, 0.8)'
     ],
       borderWidth: 1,
       barThickness: 6,
@@ -144,7 +144,7 @@ new Chart(ctx_month, {
         label: 'By Ads',
         data: [600, 300, 550, 800, 1300, 1400, 700, 1100, 1455, 1810],
         backgroundColor: [
-          'rgba(233, 13, 108, 0.4)'
+          'rgba(171, 0, 165, 0.8)'
       ],
         borderWidth: 1,
         barThickness: 6,
