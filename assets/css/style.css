@@ -189,6 +189,7 @@ p.w-value {
     border-radius: 5px;
     background: var(--white-color);
     box-shadow: -2px 3px 13px 0px rgb(207 200 200 / 55%);
+    overflow: hidden;
 }
 
 img.admin-image {
