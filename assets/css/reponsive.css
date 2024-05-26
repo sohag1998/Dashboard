@@ -29,6 +29,12 @@
     }
 
 }
+@media (max-width: 980px) {
+    .search-bar{
+        display: none;
+    }
+    
+}
 
 @media (max-width: 480px){
     .header-left{

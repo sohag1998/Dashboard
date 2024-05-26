@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/2.0.7/css/dataTables.dataTables.css" />
+    <link rel="stylesheet" href="assets/css/preload.css">
     <link rel="stylesheet" href="assets/css/sass.css">
     <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -15,9 +16,15 @@
 </head>
 <body>
 
+    <!-- ========== Preloader===========-->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
     <div class="main-wraper">
         <!-- --Navbar Start--- -->
-        <div class="header-container fixed-top">
+        <div class="header-container">
             <header class="header navbar navbar-expand-sm expand-header">
                 <div class="header-left d-flex">
                     <div class="logo">
@@ -26,6 +33,14 @@
                     <a href="#" class="sidebarcollapse" data-placement="bottom">
                         <span class="fas fa-bars"></span>
                     </a>
+                   </div>
+                   <div class="search-bar">
+                        <form action="" class="search-bar-form">
+                            <div class="search-bar-conent">
+                                <span class="fas fa-search"></span>
+                                <input type="text">
+                            </div>
+                        </form>
                    </div>
                    <ul class="navbar-item flex-row ml-auto">
                         <li class="nav-item dropdown user-profile-dropdown">

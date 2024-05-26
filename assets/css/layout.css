@@ -1,6 +1,12 @@
+
 /* ============= Main Header Design ============= */
 
 .header-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
     background: #fff;
     box-shadow: -1px 4px 20px 1px #f1f1f185;
 }
@@ -31,6 +37,24 @@ a.sidebarcollapse {
     padding-left: 20px;
     color: #999999;
     font-size: 20px;
+}
+
+.search-bar-conent {
+  width: 300px;
+  border: 2px solid #c325aa;
+  padding: 0px 10px;
+  border-radius: 20px;
+}
+.search-bar-conent input {
+  border: 0;
+  outline: none;
+  padding: 0px 0px !important;
+  line-height: 0;
+}
+
+.search-bar-conent span {
+  color: #c325aa;
+  font-size: 11px;
 }
 
 ul.navbar-item {
